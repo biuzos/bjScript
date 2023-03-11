@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLACKJACK</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="blackjack.js"></script>
+</head>
+<body>
+    <audio autoplay>
+        <source src="./Herbie Hancock - _Dolphin Dance_(Maiden Voyage,1965).mp3" type ="audio/mpeg"> 
+            Seu navegador não suporta o elemento áudio
+    </audio>
+    
+    <h2>Dealer: <span id ="dealer-sum"></span></h2>    
+        <div id="dealer-cards"> 
+        <img id="hidden" src="./cards/BACK.png" alt="">
+     </div>
+   
+
+    <h2>Você: <span id="your-sum"></span></h2>
+    <div id="your-cards"></div>
+
+    <br>
+    <button id="hit">Hit</button>
+    <button id="stay">Stay</button>
+    <p id="results"></p>
+    <br>
+
+    <button id="reload">Jogar Novamente</button>
+
+   
+</body>
+</html>
